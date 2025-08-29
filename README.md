@@ -44,3 +44,6 @@ The player controls a rocket with the **spacebar**, avoids falling obstacles, co
 │ └── explosion.wav
 │── screenshot.png # Game screenshot
 │── README.md # Documentation
+
+
+![Game Screenshot](screenshot.png)
