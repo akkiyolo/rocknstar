@@ -33,3 +33,14 @@ The player controls a rocket with the **spacebar**, avoids falling obstacles, co
 ---
 
 ## 📂 Project Structure
+│── index.html # Main game file
+│── style.css # CSS styling
+│── script.js # Game logic
+│── assets/ # Images, sounds, sprites
+│ ├── rocket.png
+│ ├── obstacle.png
+│ ├── star.png
+│ ├── bg-music.mp3
+│ └── explosion.wav
+│── screenshot.png # Game screenshot
+│── README.md # Documentation
