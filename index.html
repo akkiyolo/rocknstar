@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Space Rocket Adventure — Shield Power-Up</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="gameContainer">
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+
+    <div id="gameUI">
+      <div id="scoreDisplay">Score: 0</div>
+      <div id="highScoreDisplay">High Score: 0</div>
+      <div id="shieldTimer" style="display:none;">Shield: 5.0s</div>
+
+      <div id="startScreen" class="panel">
+        <h1>🚀 Space Rocket Adventure</h1>
+        <div class="small">Click or press <strong>SPACE</strong> to boost. Avoid meteors or collect the <strong>golden star</strong> for a 5s shield!</div>
+        <button id="startBtn" class="btn">Launch Mission</button>
+      </div>
+
+      <div id="gameOverScreen" class="panel" style="display:none;">
+        <h2>Mission Failed!</h2>
+        <div id="finalScore" style="margin-bottom:8px;">Score: 0</div>
+        <div id="newHighScore" style="display:none; color:var(--gold); font-weight:800;">🎉 New Record!</div>
+        <button id="restartBtn" class="btn">Retry Mission</button>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+
+</body>
+</html>
